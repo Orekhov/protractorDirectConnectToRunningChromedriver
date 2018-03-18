@@ -18,4 +18,6 @@ Clone and build https://github.com/Orekhov/protractor/tree/directConnect_to_runn
 
 Link to the built version of protractor (`npm link` in protractor folder, `npm link protractor` in test folder)
 
+run `webdriver-manager update` (Even though these drivers wouldn't be used, there are various checks in the protractor/selenium code that check their existence. Removing them would require a lot of code changes in the prototype)
+
 run `Run.ps1` (it should connect to a running instance of chromedriver)
