@@ -1,0 +1,10 @@
+{
+  "name": "protractorDirectConnectToRunningChromedriver",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "protractor": "5.3.0"
+  }
+}
